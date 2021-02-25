@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56AD547825DD34A20006313E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD547725DD34A20006313E /* AppDelegate.swift */; };
+		56AD547A25DD34A20006313E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD547925DD34A20006313E /* ContentView.swift */; };
+		56AD547C25DD34A40006313E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AD547B25DD34A40006313E /* Assets.xcassets */; };
+		56AD547F25DD34A40006313E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AD547E25DD34A40006313E /* Preview Assets.xcassets */; };
+		56AD548225DD34A40006313E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AD548025DD34A40006313E /* Main.storyboard */; };
+		56AD548E25DD34A50006313E /* hevcConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD548D25DD34A50006313E /* hevcConverterTests.swift */; };
+		56AD549925DD34A50006313E /* hevcConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AD549825DD34A50006313E /* hevcConverterUITests.swift */; };
+		56AD54AF25DD39E30006313E /* puppets_with_alpha_prores.mov in Resources */ = {isa = PBXBuildFile; fileRef = 56AD54AE25DD39E30006313E /* puppets_with_alpha_prores.mov */; };
+		56AE044B25E3F96400755909 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE044A25E3F96400755909 /* AppState.swift */; };
+		56AE045325E3FFCA00755909 /* HevcConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE045225E3FFCA00755909 /* HevcConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56AD548A25DD34A50006313E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56AD546C25DD34A20006313E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56AD547325DD34A20006313E;
+			remoteInfo = hevcConverter;
+		};
+		56AD549525DD34A50006313E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56AD546C25DD34A20006313E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56AD547325DD34A20006313E;
+			remoteInfo = hevcConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56AD54B325DD3C230006313E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56AD547425DD34A20006313E /* hevcConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hevcConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AD547725DD34A20006313E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56AD547925DD34A20006313E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56AD547B25DD34A40006313E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56AD547E25DD34A40006313E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56AD548125DD34A40006313E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56AD548325DD34A40006313E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AD548425DD34A40006313E /* hevcConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hevcConverter.entitlements; sourceTree = "<group>"; };
+		56AD548925DD34A50006313E /* hevcConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hevcConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AD548D25DD34A50006313E /* hevcConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hevcConverterTests.swift; sourceTree = "<group>"; };
+		56AD548F25DD34A50006313E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AD549425DD34A50006313E /* hevcConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hevcConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AD549825DD34A50006313E /* hevcConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hevcConverterUITests.swift; sourceTree = "<group>"; };
+		56AD549A25DD34A50006313E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AD54AE25DD39E30006313E /* puppets_with_alpha_prores.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = puppets_with_alpha_prores.mov; sourceTree = "<group>"; };
+		56AE044A25E3F96400755909 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		56AE045225E3FFCA00755909 /* HevcConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HevcConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56AD547125DD34A20006313E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD548625DD34A50006313E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD549125DD34A50006313E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56AD546B25DD34A20006313E = {
+			isa = PBXGroup;
+			children = (
+				56AD547625DD34A20006313E /* hevcConverter */,
+				56AD548C25DD34A50006313E /* hevcConverterTests */,
+				56AD549725DD34A50006313E /* hevcConverterUITests */,
+				56AD547525DD34A20006313E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56AD547525DD34A20006313E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56AD547425DD34A20006313E /* hevcConverter.app */,
+				56AD548925DD34A50006313E /* hevcConverterTests.xctest */,
+				56AD549425DD34A50006313E /* hevcConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56AD547625DD34A20006313E /* hevcConverter */ = {
+			isa = PBXGroup;
+			children = (
+				56AE044A25E3F96400755909 /* AppState.swift */,
+				56AE045225E3FFCA00755909 /* HevcConverter.swift */,
+				56AD547725DD34A20006313E /* AppDelegate.swift */,
+				56AD547925DD34A20006313E /* ContentView.swift */,
+				56AD547B25DD34A40006313E /* Assets.xcassets */,
+				56AD548025DD34A40006313E /* Main.storyboard */,
+				56AD548325DD34A40006313E /* Info.plist */,
+				56AD548425DD34A40006313E /* hevcConverter.entitlements */,
+				56AD547D25DD34A40006313E /* Preview Content */,
+				56AD54AE25DD39E30006313E /* puppets_with_alpha_prores.mov */,
+			);
+			path = hevcConverter;
+			sourceTree = "<group>";
+		};
+		56AD547D25DD34A40006313E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56AD547E25DD34A40006313E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56AD548C25DD34A50006313E /* hevcConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				56AD548D25DD34A50006313E /* hevcConverterTests.swift */,
+				56AD548F25DD34A50006313E /* Info.plist */,
+			);
+			path = hevcConverterTests;
+			sourceTree = "<group>";
+		};
+		56AD549725DD34A50006313E /* hevcConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56AD549825DD34A50006313E /* hevcConverterUITests.swift */,
+				56AD549A25DD34A50006313E /* Info.plist */,
+			);
+			path = hevcConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56AD547325DD34A20006313E /* hevcConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AD549D25DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverter" */;
+			buildPhases = (
+				56AD547025DD34A20006313E /* Sources */,
+				56AD547125DD34A20006313E /* Frameworks */,
+				56AD547225DD34A20006313E /* Resources */,
+				56AD54B325DD3C230006313E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hevcConverter;
+			productName = hevcConverter;
+			productReference = 56AD547425DD34A20006313E /* hevcConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56AD548825DD34A50006313E /* hevcConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AD54A025DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverterTests" */;
+			buildPhases = (
+				56AD548525DD34A50006313E /* Sources */,
+				56AD548625DD34A50006313E /* Frameworks */,
+				56AD548725DD34A50006313E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56AD548B25DD34A50006313E /* PBXTargetDependency */,
+			);
+			name = hevcConverterTests;
+			productName = hevcConverterTests;
+			productReference = 56AD548925DD34A50006313E /* hevcConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56AD549325DD34A50006313E /* hevcConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AD54A325DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverterUITests" */;
+			buildPhases = (
+				56AD549025DD34A50006313E /* Sources */,
+				56AD549125DD34A50006313E /* Frameworks */,
+				56AD549225DD34A50006313E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56AD549625DD34A50006313E /* PBXTargetDependency */,
+			);
+			name = hevcConverterUITests;
+			productName = hevcConverterUITests;
+			productReference = 56AD549425DD34A50006313E /* hevcConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56AD546C25DD34A20006313E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					56AD547325DD34A20006313E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					56AD548825DD34A50006313E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56AD547325DD34A20006313E;
+					};
+					56AD549325DD34A50006313E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 56AD547325DD34A20006313E;
+					};
+				};
+			};
+			buildConfigurationList = 56AD546F25DD34A20006313E /* Build configuration list for PBXProject "hevcConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56AD546B25DD34A20006313E;
+			productRefGroup = 56AD547525DD34A20006313E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56AD547325DD34A20006313E /* hevcConverter */,
+				56AD548825DD34A50006313E /* hevcConverterTests */,
+				56AD549325DD34A50006313E /* hevcConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56AD547225DD34A20006313E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AD54AF25DD39E30006313E /* puppets_with_alpha_prores.mov in Resources */,
+				56AD548225DD34A40006313E /* Main.storyboard in Resources */,
+				56AD547F25DD34A40006313E /* Preview Assets.xcassets in Resources */,
+				56AD547C25DD34A40006313E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD548725DD34A50006313E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD549225DD34A50006313E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56AD547025DD34A20006313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AD547A25DD34A20006313E /* ContentView.swift in Sources */,
+				56AD547825DD34A20006313E /* AppDelegate.swift in Sources */,
+				56AE044B25E3F96400755909 /* AppState.swift in Sources */,
+				56AE045325E3FFCA00755909 /* HevcConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD548525DD34A50006313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AD548E25DD34A50006313E /* hevcConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AD549025DD34A50006313E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AD549925DD34A50006313E /* hevcConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56AD548B25DD34A50006313E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56AD547325DD34A20006313E /* hevcConverter */;
+			targetProxy = 56AD548A25DD34A50006313E /* PBXContainerItemProxy */;
+		};
+		56AD549625DD34A50006313E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56AD547325DD34A20006313E /* hevcConverter */;
+			targetProxy = 56AD549525DD34A50006313E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56AD548025DD34A40006313E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AD548125DD34A40006313E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56AD549B25DD34A50006313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56AD549C25DD34A50006313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56AD549E25DD34A50006313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hevcConverter/hevcConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"hevcConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hevcConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56AD549F25DD34A50006313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hevcConverter/hevcConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"hevcConverter/Preview Content\"";
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = hevcConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		56AD54A125DD34A50006313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				INFOPLIST_FILE = hevcConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hevcConverter.app/Contents/MacOS/hevcConverter";
+			};
+			name = Debug;
+		};
+		56AD54A225DD34A50006313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				INFOPLIST_FILE = hevcConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hevcConverter.app/Contents/MacOS/hevcConverter";
+			};
+			name = Release;
+		};
+		56AD54A425DD34A50006313E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				INFOPLIST_FILE = hevcConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hevcConverter;
+			};
+			name = Debug;
+		};
+		56AD54A525DD34A50006313E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 87UK742ZB9;
+				INFOPLIST_FILE = hevcConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maximetouroute.hevcConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hevcConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56AD546F25DD34A20006313E /* Build configuration list for PBXProject "hevcConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AD549B25DD34A50006313E /* Debug */,
+				56AD549C25DD34A50006313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AD549D25DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AD549E25DD34A50006313E /* Debug */,
+				56AD549F25DD34A50006313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AD54A025DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AD54A125DD34A50006313E /* Debug */,
+				56AD54A225DD34A50006313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AD54A325DD34A50006313E /* Build configuration list for PBXNativeTarget "hevcConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AD54A425DD34A50006313E /* Debug */,
+				56AD54A525DD34A50006313E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56AD546C25DD34A20006313E /* Project object */;
+}
